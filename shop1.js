@@ -18,9 +18,9 @@ document.addEventListener("DOMContentLoaded", () => {
       Option1: [
         {
           title: "Redragon M716 INQUISITOR RGB Gaming Mouse",
-          description: "LGTVHD",
+          description: "This is budget with good quality",
           image: "https://www.redragonzone.com/cdn/shop/files/M716-1_1_450x450_0e9fb06c-090c-4bc5-b143-b57c477d87fe_360x.PNG?v=1615925715",
-          price: 29.99,
+          price: 14.99,
           tags: "POPULAR"
         },
         {
