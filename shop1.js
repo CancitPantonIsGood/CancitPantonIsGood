@@ -60,7 +60,7 @@ document.addEventListener("DOMContentLoaded", () => {
         },
         {
           title: "Redragon M991 Wireless Gaming Mouse",
-          description: "Customizable LED lights for bright ",
+          description: "Customizable LED lights for brightest and colorful mouse",
           image: "https://www.redragonzone.com/cdn/shop/files/M991-RGB-1_360x.png?v=1686365390",
           price: 9.99,
           tags: ""
