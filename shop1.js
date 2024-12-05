@@ -44,6 +44,34 @@ document.addEventListener("DOMContentLoaded", () => {
           price: 49.99,
           tags: "SALE"
         }, 
+        {
+          title: "Redragon M716 INQUISITOR RGB Gaming Mouse",
+          description: "LGTVHD",
+          image: "https://www.redragonzone.com/cdn/shop/files/M716-1_1_450x450_0e9fb06c-090c-4bc5-b143-b57c477d87fe_360x.PNG?v=1615925715",
+          price: 29.99,
+          tags: "POPULAR"
+        },
+        {
+          title: "Redragon TIANOBA 3 M802-3 Gaming Mouse",
+          description: "Good for FPS games, very easy to have a perfect sens",
+          image: "https://www.redragonzone.com/cdn/shop/files/M802-1_450x450_1f35bfb7-b394-461a-80d3-cbb703c66dcb_360x.PNG?v=1615925715",
+          price: 35.99,
+          tags: "POPULAR"
+        },
+        {
+          title: "Redragon M711 COBRA RGB Gaming Mouse",
+          description: "LGTVHD",
+          image: "https://www.redragonzone.com/cdn/shop/files/M711_450x450_3bc0b23a-75f9-4ff6-a24c-8858583d5e77_360x.PNG?v=1615925716",
+          price: 39.99,
+          tags: ""
+        },
+        {
+          title: "Redragon M990 LEGEND 24000 DPI High-Precision Programmable Laser Gaming Mouse",
+          description: "Good for you",
+          image: "https://www.redragonzone.com/cdn/shop/files/M802-1_450x450_1f35bfb7-b394-461a-80d3-cbb703c66dcb_360x.PNG?v=1615925715",
+          price: 49.99,
+          tags: "SALE"
+        }, 
       ],
       Option2: [
         {
