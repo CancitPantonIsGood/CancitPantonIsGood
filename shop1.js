@@ -47,13 +47,13 @@ document.addEventListener("DOMContentLoaded", () => {
         {
           title: "Redragon M716 INQUISITOR RGB Gaming Mouse",
           description: "LGTVHD",
-          image: "https://www.redragonzone.com/cdn/shop/files/M716-1_1_450x450_0e9fb06c-090c-4bc5-b143-b57c477d87fe_360x.PNG?v=1615925715",
-          price: 29.99,
+          image: "https://www.redragonzone.com/cdn/shop/files/M913-1_360x.png?v=1686365181",
+          price: 20,
           tags: "POPULAR"
         },
         {
-          title: "Redragon TIANOBA 3 M802-3 Gaming Mouse",
-          description: "Good for FPS games, very easy to have a perfect sens",
+          title: "Redragon M913 Impact Elite Wireless Gaming Mouse",
+          description: "Good for MOBA games that makes perfect CS",
           image: "https://www.redragonzone.com/cdn/shop/files/M802-1_450x450_1f35bfb7-b394-461a-80d3-cbb703c66dcb_360x.PNG?v=1615925715",
           price: 35.99,
           tags: "POPULAR"
