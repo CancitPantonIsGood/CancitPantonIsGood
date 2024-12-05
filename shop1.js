@@ -450,8 +450,3 @@ tags: "SALE"
   }
 });
 
-function scatterItems() { 
-  const cards = document.querySelectorAll(".equipment .card"); 
-  cards.forEach(card => { ${product.name}
-$${product.price.toFixed(2)}
-; productContainer.appendChild(productCard); }); }
