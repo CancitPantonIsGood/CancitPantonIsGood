@@ -59,21 +59,21 @@ document.addEventListener("DOMContentLoaded", () => {
           description: "Customizable lighting for your gaming setup.",
           image: "https://www.redragonzone.com/cdn/shop/products/wireless2.4ghzmechanicalkeyboard_360x.png?v=1626069653",
           price: 69.99,
-          tags: ""
+          tags: "POPULAR"
         },
         {
           title: "Redragon K580 PRO Wireless RGB Gaming Keyboard (Red Switch)",
           description: "Customize your keyboard's lighting",
           image: "https://www.redragonzone.com/cdn/shop/files/RedragonK580PROWirelessRGBGamingKeyboard_3-Modes104KeysMechanicalKeyboard_360x.png?v=1708237790",
           price: 79.99,
-          tags: ""
+          tags: "POPULAR"
         },
         {
           title: "Redragon K556 SE RGB LED Backlit Wired Mechanical Gaming Keyboard",
           description: "Customizable lighting for your gaming setup.",
           image: "https://www.redragonzone.com/cdn/shop/files/RedragonK556SEbluekeyboard_2_360x.png?v=1683537491",
           price: 89.99,
-          tags: ""
+          tags: "SALE"
         },
       ],
       Option3: [
@@ -89,7 +89,7 @@ document.addEventListener("DOMContentLoaded", () => {
           description: "Freedom of movement with premium sound.",
           image: "https://www.redragonzone.com/cdn/shop/products/wirelessheadsetwithmic_2_360x.png?v=1676877867",
           price: 69.99,
-          tags: ""
+          tags: "POPULAR"
         },
         {
           title: "Redragon H520 Icon Wired Gaming Headset",
@@ -114,14 +114,14 @@ document.addEventListener("DOMContentLoaded", () => {
           description: "Stylish T-shirts with T1",
           image: "https://shop-t1-na.gg/cdn/shop/files/2024-T1-Uniform-Jersey-Updated-front_600x.jpg?v=1720480041",
           price: 39.99,
-          tags: ""
+          tags: "SALE"
         },
         {
           title: "T1 Champion Uniform Jersey",
           description: "Simple and comfortable T1 jersey",
           image: "https://shop-t1-na.gg/cdn/shop/files/FRONT-cropped_77701f00-6e7b-479b-b8ee-c541247d46cf_600x.jpg?v=1694456252",
           price: 45.99,
-          tags: ""
+          tags: "SALE"
         },
       ],
       Option2: [
@@ -139,7 +139,7 @@ document.addEventListener("DOMContentLoaded", () => {
           description: "Stay warm with T1 Jacket",
           image: "https://shop-t1-na.gg/cdn/shop/files/2024-t1-uniform-jacket_600x.jpg?v=1708469337",
           price: 59.99,
-          tags: ""
+          tags: "POPULAR"
         },
         {
           title: "T1 Spring Jacket",
@@ -157,7 +157,7 @@ document.addEventListener("DOMContentLoaded", () => {
           description: "Adorable chibi figures for collectors.",
           image: "https://shop-t1-na.gg/cdn/shop/files/2024-T1-Uniform-Jersey-Keychain-Faker_600x.jpg?v=1712613622",
           price: 9.99,
-          tags: ""        
+          tags: "SALE"        
         },
         {
           title: "2023 T1 Uniform Worlds Jeysey Keychain",
@@ -172,8 +172,8 @@ document.addEventListener("DOMContentLoaded", () => {
           title: "Rising Legend Ahri",
           description: "The legendary and limited skin for our T1 FAKER!",
           image: "https://cdn.oneesports.gg/cdn-data/2024/05/LeagueofLegends_RisenLegendAhri_SplashArt.jpg",
-          price: 19.99,
-          tags: ""
+          price: 250,
+          tags: "POPULAR"
         },
         {
           title: "Rising Legend Leblanc",
@@ -258,14 +258,14 @@ document.addEventListener("DOMContentLoaded", () => {
           description: "Affordable ROG mouse",
           image: "https://rog.asus.com/media/1490288295183.jpg",
           price: 3.99,
-tags: "Sale"       
+tags: "SALE"       
  },
         {
           title: "Sale! ROG Mouse 1",
           description: "Affordable Mouse",
           image: "https://rog.asus.com/media/1460453019550.jpg",
           price: 12.99,
-          tags: "Sale"
+          tags: "SALE"
         },
       ],
 
@@ -275,14 +275,14 @@ tags: "Sale"
           description: "Stylish slippers for gamers",
           image: "https://shop-t1-na.gg/cdn/shop/files/sq-230425b_6806-copy_400x.jpg?v=1697670826",
           price: 10.99,
-      tags: "Sale"
+      tags: "SALE"
         },
         {
           title: "GB Pro Slide T1 Edition V2 - Black",
           description: "Stylish slippers for gamers",
           image: "https://en.shop-t1.gg/web/product/small/202408/b5914816705628137b3a548415eed797.jpg",
           price: 10.99,
-          tags: "Sale"
+          tags: "SALE"
         },
       ],
       Option3: [
@@ -310,7 +310,7 @@ tags: "Sale"
           description: "A keyboard with a design dedicated to the king of Leauge of Legeds",
           image: "a1.jpg",
           price: 199.99,
-tags: "SALE"       
+tags: "POPULAR"       
  },
         {
           title: "Faker Package Edition",
