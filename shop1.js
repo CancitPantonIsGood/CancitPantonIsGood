@@ -291,14 +291,14 @@ tags: "Sale"
           description: "Lightweight 3.5 mm gaming headset with 50 mm ASUS Essence drivers, virtual 7.1 surround sound.",
           image: "https://ecommerce.datablitz.com.ph/cdn/shop/products/h732_52_8573fece-2bcb-4777-b99c-19425f1bbffb_500x.jpg?v=1676878515",
           price: 10.99,
-      tags: "Sale"
+      tags: "SALE"
         },
         {
           title: "ASUS ROG Delta White Edition Headset",
           description: "Clarity for the Win - ROG Delta White Edition is the world's first gaming headset with the industry-leading, hi-fi-grade ESS 9218 quad DAC, which delivers impeccably clear and detailed sound to give serious gamers the edge they need to win.",
           image: "https://www.complink.com.ph/cdn/shop/products/000001_26434_1800x1800.jpg?v=1597822783",
           price: 10.99,
-          tags: "Sale"
+          tags: "SALE"
         },
       ],
     },
@@ -310,14 +310,14 @@ tags: "Sale"
           description: "A keyboard with a design dedicated to the king of Leauge of Legeds",
           image: "a1.jpg",
           price: 199.99,
-tags: "Sale"       
+tags: "SALE"       
  },
         {
           title: "Faker Package Edition",
           description: "A set of limited edition jersey, mouse, and keyboard!",
           image: "a3.jpg",
           price: 999.99,
-tags: "Sale"       
+tags: "SALE"       
  },
 
 {
@@ -325,7 +325,7 @@ tags: "Sale"
     description: "A limited edition with a design dedicated to the king of Leauge of Legeds",
     image: "a2.jpg",
     price: 254.99,
-tags: "Sale"       
+tags: "SALE"       
 },
 ]
     }
