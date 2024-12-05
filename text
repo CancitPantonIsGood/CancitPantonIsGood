@@ -1,0 +1,69 @@
+// Sample data structure containing your items
+const items = [
+  {
+    name: "2024 T1 Uniform Jersey Keychain",
+    description: "Adorable chibi figures for collectors.",
+    image: "https://shop-t1-na.gg/cdn/shop/files/2024-T1-Uniform-Jersey-Keychain-Faker_600x.jpg?v=1712613622",
+    price: "$9.99"
+  },
+  {
+    name: "2023 T1 Uniform Worlds Jersey Keychain",
+    description: "Unique designs for every fan.",
+    image: "https://shop-t1-na.gg/cdn/shop/files/0517870df70f31d38b11059aff8f5e3e_600x.jpg?v=1697737349",
+    price: "$12.99"
+  },
+  {
+    name: "Rising Legend Ahri",
+    description: "The legendary and limited skin for our T1 FAKER!",
+    image: "https://cdn.oneesports.gg/cdn-data/2024/05/LeagueofLegends_RisenLegendAhri_SplashArt.jpg",
+    price: "$19.99"
+  },
+  {
+    name: "Rising Legend Leblanc",
+    description: "The legendary and limited skin for our T1 FAKER!",
+    image: "https://preview.redd.it/risen-legend-leblanc-splash-art-v0-g1xkpo88p63d1.jpeg?auto=webp&s=d6fc453687974c90a90ab194c5d9ac0cae2aa5d3",
+    price: "$22.99"
+  },
+  {
+    name: "GB Pro Slide T1 Edition V2 - Red",
+    description: "Stylish slippers for gamers.",
+    image: "https://shop-t1-na.gg/cdn/shop/files/sq-230425b_6806-copy_400x.jpg?v=1697670826",
+    price: "$29.99"
+  },
+  {
+    name: "GB Pro Slide T1 Edition V2 - Black",
+    description: "Stylish slippers for gamers.",
+    image: "https://en.shop-t1.gg/web/product/small/202408/b5914816705628137b3a548415eed797.jpg",
+    price: "$29.99"
+  }
+];
+
+// Function to display items randomly
+function displayItemsRandomly() {
+  const container = document.getElementById("Equipment");
+  container.innerHTML = ""; // Clear the container
+
+  // Shuffle items
+  const shuffledItems = items.sort(() => Math.random() - 0.5);
+
+  // Generate and append cards for each item
+  shuffledItems.forEach(item => {
+    const card = document.createElement("div");
+    card.classList.add("card");
+    card.innerHTML = `
+      <div class="card-image">
+        <img src="${item.image}" alt="${item.name}">
+      </div>
+      <div class="card-content">
+        <h3>${item.name}</h3>
+        <p>${item.description}</p>
+        <p class="price">${item.price}</p>
+        <button class="add-to-cart">Add to Cart</button>
+      </div>
+    `;
+    container.appendChild(card);
+  });
+}
+
+// Call the function on page load
+document.addEventListener("DOMContentLoaded", displayItemsRandomly);
