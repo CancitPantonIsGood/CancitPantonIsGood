@@ -18,9 +18,9 @@ document.addEventListener("DOMContentLoaded", () => {
       Option1: [
         {
           title: "Redragon M716 INQUISITOR RGB Gaming Mouse",
-          description: "This is budget with good quality to have a better experiences",
+          description: "LGTVHD",
           image: "https://www.redragonzone.com/cdn/shop/files/M716-1_1_450x450_0e9fb06c-090c-4bc5-b143-b57c477d87fe_360x.PNG?v=1615925715",
-          price: 14.99,
+          price: 29.99,
           tags: "POPULAR"
         },
         {
@@ -43,6 +43,34 @@ document.addEventListener("DOMContentLoaded", () => {
           image: "https://www.redragonzone.com/cdn/shop/files/M802-1_450x450_1f35bfb7-b394-461a-80d3-cbb703c66dcb_360x.PNG?v=1615925715",
           price: 49.99,
           tags: "SALE"
+        },
+        {
+          title: "Redragon M991 Wireless Gaming Mouse",
+          description: "Very light",
+          image: "https://www.redragonzone.com/cdn/shop/files/M991-RGB-1_360x.png?v=1686365390",
+          price: 29.99,
+          tags: ""
+        },
+        {
+          title: "Redragon M810 Pro Wireless Gaming Mouse",
+          description: "This has the cheapest price of all time sheesh",
+          image: "https://www.redragonzone.com/cdn/shop/products/RedragonM690PROWirelessGamingMouse_2_360x.png?v=1674027702",
+          price: 1.99,
+          tags: ""
+        },
+        {
+          title: "Redragon M991 Wireless Gaming Mouse",
+          description: "Very light",
+          image: "https://www.redragonzone.com/cdn/shop/files/M991-RGB-1_360x.png?v=1686365390",
+          price: 29.99,
+          tags: ""
+        },
+        {
+          title: "Redragon PLANK M812RGB Geyming Mouse",
+          description: "This is our best LGTVHD mouse for gey",
+          image: "https://www.redragonzone.com/cdn/shop/files/M721-PROM812-RGB_1_360x.png?v=1689933866",
+          price: 4.99,
+          tags: ""
         },
       ],
       Option2: [
