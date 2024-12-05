@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ShopXpress</title>
+    <link rel="stylesheet" href="shop1.css">
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script src="shop1.js" defer></script>
+    <link rel="icon" type="image/x-icon" href="transLogo.png">
+</head>
+<body>
+  <div class="navbar">
+    <div class="logo">ShopXpress<img src="logos.png" alt="Logo"></div>
+  </div>
+
+  <div class="menus">
+    <div class="container">
+      <a href="#" class="dropdown-toggle">Filter</a>
+      <div class="dropdown-content">
+        <div class="filter-category">
+          <h3>Equipment</h3>
+          <a href="#">Mouse</a>
+          <a href="#">Keyboard</a>
+          <a href="#">Headset</a>
+        </div>
+        <div class="filter-category">
+          <h3>Merchandise</h3>
+          <a href="#">T-Shirt</a>
+          <a href="#">Pants</a>
+          <a href="#">Jacket</a>
+        </div>
+        <div class="filter-category">
+          <h3>Accessories</h3>
+          <a href="#">Key Chains</a>
+          <a href="#">Skins</a>
+          <a href="#">Slippers</a>
+        </div>
+        <div class="filter-category">
+          <h3>Popular</h3>
+          <a href="#">Top Equipment</a>
+          <a href="#">Top Purchases</a>
+          <a href="#">Top Accessories</a>
+        </div>
+        <div class="filter-category">
+          <h3>Sales</h3>
+          <a href="#">Discounted Mouse</a>
+          <a href="#">Discounted Accessories</a>
+          <a href="#">Discounted Headsets</a>
+        </div>
+        <div class="filter-category">
+          <h3>Limited</h3>
+          <a href="#">Limited</a>
+        </div>
+      </div>
+    </div>
+</div>
+
+
+  <!-- Cards Section -->
+  <div class="equipment" id="Equipment">
+
+      <h1 class="welcome"> Welcome to ShopXpress</h1>
+
+  </div>
+
+  <!-- Checkout Section -->
+  <div class="checkout-container">
+    <div class="checkout-card">
+      <h2>Your Cart</h2>
+      <div id="cart-items"></div>
+      <div class="total">
+        <p>Total: <span id="total-price">$0.00</span></p>
+      </div>
+      <button class="checkout-btn">Proceed to Checkout</button>
+    </div>
+  </div>
+
+  <div id="custom-alert" class="modal">
+    <div class="modal-content">
+      <span class="close-btn">&times;</span>
+      <p id="alert-message">Your purchase is being processed...</p>
+      <button id="confirm-btn">OK</button>
+    </div>
+  </div>
+
+</body>
+</html>
