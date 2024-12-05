@@ -43,35 +43,7 @@ document.addEventListener("DOMContentLoaded", () => {
           image: "https://www.redragonzone.com/cdn/shop/files/M802-1_450x450_1f35bfb7-b394-461a-80d3-cbb703c66dcb_360x.PNG?v=1615925715",
           price: 49.99,
           tags: "SALE"
-        }, 
-        {
-          title: "Redragon M716 INQUISITOR RGB Gaming Mouse",
-          description: "LGTVHD",
-          image: "https://www.redragonzone.com/cdn/shop/files/M913-1_360x.png?v=1686365181",
-          price: 20,
-          tags: "POPULAR"
         },
-        {
-          title: "Redragon M913 Impact Elite Wireless Gaming Mouse",
-          description: "Good for MOBA games that makes perfect CS",
-          image: "https://www.redragonzone.com/cdn/shop/files/M802-1_450x450_1f35bfb7-b394-461a-80d3-cbb703c66dcb_360x.PNG?v=1615925715",
-          price: 35.99,
-          tags: "POPULAR"
-        },
-        {
-          title: "Redragon M991 Wireless Gaming Mouse",
-          description: "Customizable LED lights for brightest and colorful mouse",
-          image: "https://www.redragonzone.com/cdn/shop/files/M991-RGB-1_360x.png?v=1686365390",
-          price: 9.99,
-          tags: ""
-        },
-        {
-          title: "Redragon M990 LEGEND 24000 DPI High-Precision Programmable Laser Gaming Mouse",
-          description: "Good for you",
-          image: "https://www.redragonzone.com/cdn/shop/files/M802-1_450x450_1f35bfb7-b394-461a-80d3-cbb703c66dcb_360x.PNG?v=1615925715",
-          price: 49.99,
-          tags: "SALE"
-        }, 
       ],
       Option2: [
         {
