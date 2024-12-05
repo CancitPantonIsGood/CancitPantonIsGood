@@ -512,20 +512,3 @@ img {
   border-radius: 10%;
 }
 
-.welcome {
-  position: fixed;
-  font-size: 200px;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  border: 2px solid none;
-  border-radius: 20px;
-  background-color: #333;;
-  padding-left: 50px;
-  padding-right: 50px;
-  text-shadow: 0 0 15px rgb(94, 85, 85);
-  color: #ff0000;
-}
