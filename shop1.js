@@ -43,7 +43,7 @@ document.addEventListener("DOMContentLoaded", () => {
           description: "Good for you",
           image: "https://www.redragonzone.com/cdn/shop/files/M802-1_450x450_1f35bfb7-b394-461a-80d3-cbb703c66dcb_360x.PNG?v=1615925715",
           price: 49.99,
-          tags: "SALES"
+          tags: "SALE"
         }, 
       ],
       Option2: [
@@ -352,7 +352,7 @@ tags: "SALE"
   .map((item, itemIndex) => {
     // Add "Popular" text to the first item in the list
     const popularText = item.tags === "POPULAR" ? '<div class="tags-popular">Popular</div>' : '';
-    const salesText = item.tags === "SALES" ? ' <div class="tags-sale">Sales</div>' : '';
+    const salesText = item.tags === "SALE" ? ' <div class="tags-sale">Sales</div>' : '';
 
     return `
       <div class="card">
