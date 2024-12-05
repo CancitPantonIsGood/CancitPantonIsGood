@@ -59,10 +59,10 @@ document.addEventListener("DOMContentLoaded", () => {
           tags: "POPULAR"
         },
         {
-          title: "Redragon M711 COBRA RGB Gaming Mouse",
-          description: "LGTVHD",
-          image: "https://www.redragonzone.com/cdn/shop/files/M711_450x450_3bc0b23a-75f9-4ff6-a24c-8858583d5e77_360x.PNG?v=1615925716",
-          price: 39.99,
+          title: "Redragon M991 Wireless Gaming Mouse",
+          description: "Customizable LED lights for bright ",
+          image: "https://www.redragonzone.com/cdn/shop/files/M991-RGB-1_360x.png?v=1686365390",
+          price: 9.99,
           tags: ""
         },
         {
@@ -449,3 +449,9 @@ tags: "SALE"
     }
   }
 });
+
+function scatterItems() { 
+  const cards = document.querySelectorAll(".equipment .card"); 
+  cards.forEach(card => { ${product.name}
+$${product.price.toFixed(2)}
+; productContainer.appendChild(productCard); }); }
