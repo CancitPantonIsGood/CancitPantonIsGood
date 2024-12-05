@@ -10,10 +10,9 @@ document.addEventListener("DOMContentLoaded", () => {
   const dropdownOptions = document.querySelectorAll(".dropdown-content a");
   const equipmentSection = document.querySelector(".equipment");
   const checkoutContainer = document.querySelector(".checkout-container");
-  const checkoutButton = document.querySelector(".checkout-button"); // Checkout button
+  const checkoutButton = document.querySelector(".checkout-button");
   let cart = [];
 
-  // Define content mapping for each category and option
   const contentMap = {
     Equipment: {
       Option1: [
@@ -332,25 +331,16 @@ tags: "SALE"
 
   };
 
-
-
-  // Event listener for all dropdown options
   dropdownOptions.forEach((option, index) => {
     option.addEventListener("click", (e) => {
-      e.preventDefault(); // Prevent default link behavior
-  
-      // Determine category and option (Equipment, Merchandise, Accessories)
-      const categoryIndex = Math.floor(index / 3); // Calculate based on 3 options per category
+      e.preventDefault(); 
+      const categoryIndex = Math.floor(index / 3);
       const category = Object.keys(contentMap)[categoryIndex];
       const optionKey = `Option${(index % 3) + 1}`;
-  
-      // Get the content for the selected option
       const contentList = contentMap[category][optionKey];
-  
-      // Generate cards for each item in the selected option
       const cardsHtml = contentList
   .map((item, itemIndex) => {
-    // Add "Popular" text to the first item in the list
+    
     const popularText = item.tags === "POPULAR" ? '<div class="tags-popular">Popular</div>' : '';
     const salesText = item.tags === "SALE" ? ' <div class="tags-sale">Sales</div>' : '';
 
@@ -368,31 +358,23 @@ tags: "SALE"
       </div>
     `;
   })
-  .join(""); // Join the array of card HTMLs into a string
+  .join("")
 
-  
-      // Update the .equipment section with the new cards
       equipmentSection.innerHTML = `
         <div class="cards">
           ${cardsHtml}
         </div>
       `;
   
-      // Optionally scroll to the updated section
       equipmentSection.scrollIntoView({ behavior: "smooth" });
   
-      // Add event listeners to all "Buy Now" buttons
       document.querySelectorAll('.buy-btn').forEach(button => {
         button.addEventListener('click', (e) => {
           e.preventDefault();
   
           const title = button.getAttribute('data-title');
           const price = parseFloat(button.getAttribute('data-price'));
-  
-          // Add item name and price to the cart
           cart.push({ title, price });
-  
-          // Update the checkout
           updateCheckout();
         });
       });
@@ -400,10 +382,8 @@ tags: "SALE"
   });
   
 
-  // Function to update the checkout display
   function updateCheckout() {
     checkoutContainer.innerHTML = '';
-
     if (cart.length > 0) {
       let cartHtml = `<h3>Your Cart:</h3>`;
       let total = 0;
@@ -418,28 +398,23 @@ tags: "SALE"
       });
 
       cartHtml += `<h4>Total: $${total.toFixed(2)}</h4>`;
-
       checkoutContainer.innerHTML = cartHtml;
-
-      // Add event listeners to all "Remove" buttons
       document.querySelectorAll('.remove-btn').forEach(button => {
         button.addEventListener('click', (e) => {
           const index = e.target.getAttribute('data-index');
-          cart.splice(index, 1); // Remove item from cart
-          updateCheckout(); // Re-render the cart
+          cart.splice(index, 1); 
+          updateCheckout(); 
         });
       });
 
-      // Add checkout button if cart has items
       checkoutContainer.innerHTML += `
         <button class="checkout-button">Checkout</button>
       `;
       
-      // Add event listener to checkout button
       document.querySelector(".checkout-button").addEventListener('click', () => {
         alert("Your purchase is processing....");
-        cart = []; // Clear the cart after checkout
-        updateCheckout(); // Update the checkout display
+        cart = []; 
+        updateCheckout();
       });
     } else {
       checkoutContainer.innerHTML = '<p>Your cart is empty</p>';
