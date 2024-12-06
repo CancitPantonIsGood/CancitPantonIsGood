@@ -122,8 +122,8 @@ document.addEventListener("DOMContentLoaded", () => {
           title: "Redragon H520 Icon Wired Gaming Headset",
           description: "Immerse in crystal-clear sound quality.",
           image: "https://www.redragonzone.com/cdn/shop/products/H520-1_360x.png?v=1621822416",
-          price: 39.99,
-          tags: "NONE"
+          price: 99.99,
+          tags: "SALE"
         },
         {
           title: "Redragon H510 Zeuz-X RGB White Wired Gaming Headset",
@@ -276,18 +276,18 @@ document.addEventListener("DOMContentLoaded", () => {
       ],
       Option3: [
         {
-          title: "Redragon H510 ZEUZ WHITE Gaming Headset 7.1 Surround Sound Memory Foam Ear Pads",
-          description: "Immerse in crystal-clear sound quality.",
-          image: "https://www.redragonzone.com/cdn/shop/products/Redragonh510whitegamingheadset_1_360x.png?v=1597722607",
-          price: 49.99,
-          tags: "SALE"
+          title: "GB Pro Slide T1 Edition V2 - Red",
+          description: "Stylish slippers for gamers",
+          image: "https://shop-t1-na.gg/cdn/shop/files/sq-230425b_6806-copy_400x.jpg?v=1697670826",
+          price: 29.99,
+      tags: "NONE"
         },
         {
-          title: "Redragon H520 Icon Wired Gaming Headset",
-          description: "Immerse in crystal-clear sound quality.",
-          image: "https://www.redragonzone.com/cdn/shop/products/H520-1_360x.png?v=1621822416",
-          price: 99.99,
-          tags: "SALE"
+          title: "GB Pro Slide T1 Edition V2 - Black",
+          description: "Stylish slippers for gamers",
+          image: "https://en.shop-t1.gg/web/product/small/202408/b5914816705628137b3a548415eed797.jpg",
+          price: 29.99,
+          tags: "NONE"
         },
       ],
     },
@@ -299,8 +299,8 @@ document.addEventListener("DOMContentLoaded", () => {
           description: "Affordable ROG mouse",
           image: "https://rog.asus.com/media/1490288295183.jpg",
           price: 3.99,
-tags: "SALE"       
- },
+          tags: "SALE"       
+        },
         {
           title: "Sale! ROG Mouse 1",
           description: "Affordable Mouse",
@@ -328,17 +328,10 @@ tags: "SALE"
       ],
       Option3: [
         {
-          title: "Asus ROG Delta S Core 3.5mm Gaming Headset",
-          description: "Lightweight 3.5 mm gaming headset with 50 mm ASUS Essence drivers, virtual 7.1 surround sound.",
-          image: "https://ecommerce.datablitz.com.ph/cdn/shop/products/h732_52_8573fece-2bcb-4777-b99c-19425f1bbffb_500x.jpg?v=1676878515",
-          price: 10.99,
-      tags: "SALE"
-        },
-        {
-          title: "ASUS ROG Delta White Edition Headset",
-          description: "Clarity for the Win - ROG Delta White Edition is the world's first gaming headset with the industry-leading, hi-fi-grade ESS 9218 quad DAC, which delivers impeccably clear and detailed sound to give serious gamers the edge they need to win.",
-          image: "https://www.complink.com.ph/cdn/shop/products/000001_26434_1800x1800.jpg?v=1597822783",
-          price: 10.99,
+          title: "Redragon H510 ZEUZ WHITE Gaming Headset 7.1 Surround Sound Memory Foam Ear Pads",
+          description: "Immerse in crystal-clear sound quality.",
+          image: "https://www.redragonzone.com/cdn/shop/products/Redragonh510whitegamingheadset_1_360x.png?v=1597722607",
+          price: 49.99,
           tags: "SALE"
         },
         {
