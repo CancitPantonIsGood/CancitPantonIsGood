@@ -48,7 +48,7 @@ $(document).ready(function () {
   setupTooltip(
     ".menu a:contains('Credits')",
     "#credits-tooltip",
-    "Made by: <br> Doctolero, Jhon Christopher <br> Masubay, Mark Joshua <br> Aludo, Cindy Angeline <br> Delcarmen, Aivan <br><br>All images are credited to ASUS REPUBLIC OF GAMERS and SKT T1"
+    "Made by: <br> Doctolero, Jhon Christopher <br> Masubay, Mark Joshua <br> Aludo, Cindy Angeline <br> Delcarmen, Aivan <br><br>All images are credited to ASUS REPUBLIC OF GAMERS and SKT T1 <br><br> Authorized re-seller of ROG"
   );
 
   setupTooltip(
