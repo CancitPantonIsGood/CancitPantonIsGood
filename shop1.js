@@ -350,7 +350,7 @@ document.addEventListener("DOMContentLoaded", () => {
           title: "Limited Edition Faker Keyboard",
           description: "A keyboard with a design dedicated to the king of Leauge of Legeds",
           image: "a1.jpg",
-          price: 199.99,
+          price: 9999.99,
           tags: "LIMITED"       
            },
           {
@@ -365,7 +365,7 @@ document.addEventListener("DOMContentLoaded", () => {
           title: "Limited Edition Faker Jersey",
           description: "A limited edition with a design dedicated to the king of Leauge of Legeds",
           image: "a2.jpg",
-          price: 2499.99,
+          price: 3999.99,
           tags: "LIMITED"       
           },
           ]
