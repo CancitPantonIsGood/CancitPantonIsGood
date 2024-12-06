@@ -1,1 +1,23 @@
-buttons       document.querySelectorAll('.remove-btn').forEach(button => {         button.addEventListener('click', (e) => {           const index = e.target.getAttribute('data-index');           cart.splice(index, 1); // Remove item from cart           updateCheckout(); // Re-render the cart         });       });
+function updateCheckout() {
+    const cartContainer = document.getElementById('cart-container');
+    cartContainer.innerHTML = '';
+    cart.forEach((item, index) => {
+        const cartItem = document.createElement('div');
+        cartItem.innerHTML = `
+            <span>${item.name}</span>
+            <button class="remove-btn" data-index="${index}">Remove</button>
+        `;
+        cartContainer.appendChild(cartItem);
+    });
+    attachRemoveButtons(); // Reattach event listeners to newly added buttons
+}
+
+document.querySelectorAll('.remove-btn').forEach(button => { 
+    button.addEventListener('click', (e) => { 
+        const index = e.target.getAttribute('data-index'); 
+        cart.splice(index, 1); // Remove item from cart 
+        updateCheckout(); // Re-render the cart 
+    }); 
+});
+
+document.querySelectorAll('.remove-btn').forEach(button => { button.addEventListener('click', (e) => { const index = e.target.getAttribute('data-index'); cart.splice(index, 1); // Remove item from cart updateCheckout(); // Re-render the cart }); });
