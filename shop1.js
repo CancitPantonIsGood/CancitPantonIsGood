@@ -49,7 +49,7 @@ document.addEventListener("DOMContentLoaded", () => {
           description: "Very light",
           image: "https://www.redragonzone.com/cdn/shop/files/M991-RGB-1_360x.png?v=1686365390",
           price: 29.99,
-          tags: "NONE"
+          tags: "POPULAR"
         },
         {
           title: "Redragon M810 Pro Wireless Gaming Mouse",
@@ -200,14 +200,14 @@ document.addEventListener("DOMContentLoaded", () => {
           description: "The legendary and limited skin for our T1 FAKER!",
           image: "https://cdn.oneesports.gg/cdn-data/2024/05/LeagueofLegends_RisenLegendAhri_SplashArt.jpg",
           price: 250,
-          tags: "POPULAR"
+          tags: "LEGENDARY"
         },
         {
           title: "Rising Legend Leblanc",
           description: "The legendary and limited skin for our T1 FAKER!",
           image: "https://preview.redd.it/risen-legend-leblanc-splash-art-v0-g1xkpo88p63d1.jpeg?auto=webp&s=d6fc453687974c90a90ab194c5d9ac0cae2aa5d3",
           price: 22.99,
-          tags: "NONE"
+          tags: "POPULAR"
         },
       ],
       Option3: [
@@ -243,21 +243,35 @@ document.addEventListener("DOMContentLoaded", () => {
           price: 35.99,
           tags: "POPULAR"
         },
+        {
+          title: "Redragon Deimos K599 24G+Wired Mechanical Keyboard",
+          description: "Customizable lighting for your gaming setup.",
+          image: "https://www.redragonzone.com/cdn/shop/products/wireless2.4ghzmechanicalkeyboard_360x.png?v=1626069653",
+          price: 69.99,
+          tags: "POPULAR"
+        },
+        {
+          title: "Redragon K580 PRO Wireless RGB Gaming Keyboard (Red Switch)",
+          description: "Customize your keyboard's lighting",
+          image: "https://www.redragonzone.com/cdn/shop/files/RedragonK580PROWirelessRGBGamingKeyboard_3-Modes104KeysMechanicalKeyboard_360x.png?v=1708237790",
+          price: 79.99,
+          tags: "POPULAR"
+        },
       ],
       Option2: [
         {
           title: "Rising Legend Ahri",
           description: "The legendary and limited skin for our T1 FAKER!",
           image: "https://cdn.oneesports.gg/cdn-data/2024/05/LeagueofLegends_RisenLegendAhri_SplashArt.jpg",
-          price: 19.99,
-          tags: "NONE"
+          price: 250,
+          tags: "LEGENDARY"
         },
         {
           title: "Rising Legend Leblanc",
           description: "The legendary and limited skin for our T1 FAKER!",
           image: "https://preview.redd.it/risen-legend-leblanc-splash-art-v0-g1xkpo88p63d1.jpeg?auto=webp&s=d6fc453687974c90a90ab194c5d9ac0cae2aa5d3",
           price: 22.99,
-          tags: "NONE"
+          tags: "POPULAR"
         },
       ],
       Option3: [
@@ -337,24 +351,24 @@ tags: "SALE"
           description: "A keyboard with a design dedicated to the king of Leauge of Legeds",
           image: "a1.jpg",
           price: 199.99,
-tags: "POPULAR"       
- },
-        {
+          tags: "LIMITED"       
+           },
+          {
           title: "Faker Package Edition",
           description: "A set of limited edition jersey, mouse, and keyboard!",
           image: "a3.jpg",
           price: 999.99,
-tags: "SALE"       
- },
-
-{
-    title: "Limited Edition Faker Jersey",
-    description: "A limited edition with a design dedicated to the king of Leauge of Legeds",
-    image: "a2.jpg",
-    price: 254.99,
-tags: "SALE"       
-},
-]
+          tags: "LIMITED"       
+           },
+         
+          {
+          title: "Limited Edition Faker Jersey",
+          description: "A limited edition with a design dedicated to the king of Leauge of Legeds",
+          image: "a2.jpg",
+          price: 254.99,
+          tags: "LIMITED"       
+          },
+          ]
     }
 
   };
@@ -369,8 +383,10 @@ tags: "SALE"
       const cardsHtml = contentList
   .map((item, itemIndex) => {
     const none = item.tags === "NONE" ? '<div class="tags-none"></div>' : '';
+    const limited = item.tags === "LIMITED" ? '<div class="tags-limited"></div>' : '';
     const popularText = item.tags === "POPULAR" ? '<div class="tags-popular">Popular</div>' : '';
     const salesText = item.tags === "SALE" ? ' <div class="tags-sale">Sales</div>' : '';
+    const legText = item.tags === "LEGENDARY" ? ' <div class="tags-legendary">Legendary</div>' : '';
 
     if (salesText) {
       return `
@@ -412,8 +428,35 @@ tags: "SALE"
         </div>
       </div>
     `;
+    } 
+    else if (legText) {
+      return `
+      <div class="card" style="border: 2px solid yellow;">
+        <div class="content">
+        ${legText}
+          <img src="${item.image}" alt="${item.title}">
+          <h3>${item.title}</h3>
+          <p>${item.description}</p>
+          <p><strong>$${item.price.toFixed(2)}</strong></p>
+          <a href="#" class="buy-btn" data-title="${item.title}" data-price="${item.price}">Buy Now!</a>
+        </div>
+      </div>
+    `;
     }
-    
+    else if (limited) {
+      return `
+      <div class="card" style="border: 2px solid white; box-shadow: 0 0 5px white, 0 0 10px white;">
+        <div class="content">
+        ${legText}
+          <img src="${item.image}" alt="${item.title}">
+          <h3>${item.title}</h3>
+          <p>${item.description}</p>
+          <p><strong>$${item.price.toFixed(2)}</strong></p>
+          <a href="#" class="buy-btn" data-title="${item.title}" data-price="${item.price}">Buy Now!</a>
+        </div>
+      </div>
+    `;
+    }
   })
   .join("")
 
@@ -479,3 +522,31 @@ tags: "SALE"
   }
 });
 
+function updateCheckout() {
+  const cartContainer = document.getElementById('cart-container');
+  cartContainer.innerHTML = '';
+  cart.forEach((item, index) => {
+      const cartItem = document.createElement('div');
+      cartItem.innerHTML = `
+          <span>${item.name}</span>
+          <button class="remove-btn" data-index="${index}">Remove</button>
+      `;
+      cartContainer.appendChild(cartItem);
+  });
+  attachRemoveButtons();
+}
+
+document.querySelectorAll('.remove-btn').forEach(button => { 
+  button.addEventListener('click', (e) => { 
+      const index = e.target.getAttribute('data-index'); 
+      cart.splice(index, 1);
+      updateCheckout();
+  }); 
+});
+
+document.querySelectorAll('.remove-btn').forEach(button => { button.addEventListener('click', (e) => { 
+const index = e.target.getAttribute('data-index'); cart.splice(index, 1);
+
+updateCheckout();
+}); 
+});
