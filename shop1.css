@@ -15,6 +15,7 @@ body {
   display: block;
 }
 
+
 /* Navbar Styles */
 .navbar {
   display: flex;
@@ -491,16 +492,53 @@ button:hover {
   background: rgb(0, 102, 255);
   z-index: 2;
 }
+.tags-popular1 {
+  position: absolute;
+  top: -15px;
+  width: 100px;
+  font-size: 15px;
+  padding: 10px;  
+  border-radius: 10px;
+  font-weight: bold;
+  background: rgb(0, 102, 255);
+  z-index: 2;
+}
+
 .tags-sale {
   position: absolute;
   top: -15px;
-  z-index: 0;
+  z-index: 2;
   width: 100px;
   font-size: 15px;
   padding: 10px;  
   border-radius: 10px;
   font-weight: bold;
   background: rgb(255, 0, 55);
+}
+
+.tags-limited {
+  position: absolute;
+  top: -15px;
+  z-index: 2;
+  width: 100px;
+  font-size: 15px;
+  padding: 10px;  
+  border-radius: 10px;
+  font-weight: bold;
+  color: black;
+  background: white;
+}
+
+.tags-legendary {
+  position: absolute;
+  top: -15px;
+  z-index: 2;
+  width: 100px;
+  font-size: 15px;
+  padding: 10px;  
+  border-radius: 10px;
+  font-weight: bold;
+  background: rgb(197, 197, 0);
 }
 
 .dropdown-content a {
