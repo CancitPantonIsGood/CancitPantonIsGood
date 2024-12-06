@@ -99,8 +99,15 @@ document.addEventListener("DOMContentLoaded", () => {
           title: "Redragon K556 SE RGB LED Backlit Wired Mechanical Gaming Keyboard",
           description: "Customizable lighting for your gaming setup.",
           image: "https://www.redragonzone.com/cdn/shop/files/RedragonK556SEbluekeyboard_2_360x.png?v=1683537491",
-          price: 89.99,
+          price: 999,
           tags: "SALE"
+        },
+        {
+          title: "Redragon UCAL K673 PRO",
+          description: "One of the loudest mechanical keyboard",
+          image: "https://www.redragonzone.com/cdn/shop/files/RedragonUCALK673PRO75_WirelessGasketAnimeKeyboard_1_360x.png?v=1729045678",
+          price: 999,
+          tags: "NONE"
         },
       ],
       Option3: [
@@ -130,6 +137,13 @@ document.addEventListener("DOMContentLoaded", () => {
           description: "Freedom of movement with premium sound.",
           image: "https://www.redragonzone.com/cdn/shop/products/H510ZEUS-XRGBWhiteWiredGamingHeadset_1_360x.png?v=1654501459",
           price: 750,
+          tags: "NONE"
+        },
+        {
+          title: "Redragon SCREAM H231 Wired Gaming Headset",
+          description: "This headset has erren voice inside, you wil hear him say 'OREWA EREN YEAGAR'",
+          image: "https://www.redragonzone.com/cdn/shop/files/RedragonH231SCREAMWiredGamingHeadset_1_360x.png?v=1702288182",
+          price: 1250,
           tags: "NONE"
         },
       ],
@@ -257,6 +271,13 @@ document.addEventListener("DOMContentLoaded", () => {
           price: 2199,
           tags: "POPULAR"
         },
+        {
+          title: "Redragon h510 Zeuz-X RGB Wireless Gaming Headset",
+          description: "Freedom of movement with premium sound.",
+          image: "https://www.redragonzone.com/cdn/shop/products/wirelessheadsetwithmic_2_360x.png?v=1676877867",
+          price: 1600,
+          tags: "POPULAR"
+        },
       ],
       Option2: [
         {
@@ -350,7 +371,7 @@ document.addEventListener("DOMContentLoaded", () => {
           title: "Limited Edition Faker Keyboard",
           description: "A keyboard with a design dedicated to the king of Leauge of Legeds",
           image: "a1.jpg",
-          price: 9999.99,
+          price: 199.99,
           tags: "LIMITED"       
            },
           {
@@ -365,7 +386,7 @@ document.addEventListener("DOMContentLoaded", () => {
           title: "Limited Edition Faker Jersey",
           description: "A limited edition with a design dedicated to the king of Leauge of Legeds",
           image: "a2.jpg",
-          price: 3999.99,
+          price: 2499.99,
           tags: "LIMITED"       
           },
           ]
@@ -388,6 +409,7 @@ document.addEventListener("DOMContentLoaded", () => {
     const salesText = item.tags === "SALE" ? ' <div class="tags-sale">Sales</div>' : '';
     const legText = item.tags === "LEGENDARY" ? ' <div class="tags-legendary">Legendary</div>' : '';
 
+    
     if (salesText) {
       return `
       <div class="card" style="border: 2px solid red;">
