@@ -1,0 +1,1 @@
+buttons       document.querySelectorAll('.remove-btn').forEach(button => {         button.addEventListener('click', (e) => {           const index = e.target.getAttribute('data-index');           cart.splice(index, 1); // Remove item from cart           updateCheckout(); // Re-render the cart         });       });
