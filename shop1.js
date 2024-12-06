@@ -20,56 +20,56 @@ document.addEventListener("DOMContentLoaded", () => {
           title: "Redragon M716 INQUISITOR RGB Gaming Mouse",
           description: "LGTVHD",
           image: "https://www.redragonzone.com/cdn/shop/files/M716-1_1_450x450_0e9fb06c-090c-4bc5-b143-b57c477d87fe_360x.PNG?v=1615925715",
-          price: 29.99,
+          price: 1500,
           tags: "POPULAR"
         },
         {
           title: "Redragon TIANOBA 3 M802-3 Gaming Mouse",
           description: "Good for FPS games, very easy to have a perfect sens",
           image: "https://www.redragonzone.com/cdn/shop/files/M802-1_450x450_1f35bfb7-b394-461a-80d3-cbb703c66dcb_360x.PNG?v=1615925715",
-          price: 35.99,
+          price: 1750,
           tags: "POPULAR"
         },
         {
           title: "Redragon M711 COBRA RGB Gaming Mouse",
           description: "LGTVHD",
           image: "https://www.redragonzone.com/cdn/shop/files/M711_450x450_3bc0b23a-75f9-4ff6-a24c-8858583d5e77_360x.PNG?v=1615925716",
-          price: 39.99,
+          price: 799,
           tags: "NONE"
         },
         {
           title: "Redragon M990 LEGEND 24000 DPI High-Precision Programmable Laser Gaming Mouse",
           description: "Good for you",
           image: "https://www.redragonzone.com/cdn/shop/files/M802-1_450x450_1f35bfb7-b394-461a-80d3-cbb703c66dcb_360x.PNG?v=1615925715",
-          price: 49.99,
+          price: 500,
           tags: "SALE"
         },
         {
           title: "Redragon M991 Wireless Gaming Mouse",
           description: "Very light",
           image: "https://www.redragonzone.com/cdn/shop/files/M991-RGB-1_360x.png?v=1686365390",
-          price: 29.99,
+          price: 1999,
           tags: "NONE"
         },
         {
           title: "Redragon M810 Pro Wireless Gaming Mouse",
           description: "This has the cheapest price of all time sheesh",
           image: "https://www.redragonzone.com/cdn/shop/products/RedragonM690PROWirelessGamingMouse_2_360x.png?v=1674027702",
-          price: 1.99,
+          price: 399,
           tags: "NONE"
         },
         {
           title: "Redragon M991 Wireless Gaming Mouse",
           description: "Very light",
           image: "https://www.redragonzone.com/cdn/shop/files/M991-RGB-1_360x.png?v=1686365390",
-          price: 29.99,
+          price: 800,
           tags: "NONE"
         },
         {
           title: "Redragon PLANK M812RGB Geyming Mouse",
           description: "This is our best LGTVHD mouse for gey",
           image: "https://www.redragonzone.com/cdn/shop/files/M721-PROM812-RGB_1_360x.png?v=1689933866",
-          price: 4.99,
+          price: 1199,
           tags: "NONE"
         },
       ],
@@ -78,21 +78,21 @@ document.addEventListener("DOMContentLoaded", () => {
           title: "Redragon K552-R KUMARA RAINBOW RGB Backlit Mechanical Gaming Keyboard",
           description: "Responsive and durable mechanical keys.",
           image: "https://www.redragonzone.com/cdn/shop/products/K552R-2-1_360x.png?v=1533022707",
-          price: 59.99,
+          price: 750,
           tags: "NONE"
         },
         {
           title: "Redragon Deimos K599 24G+Wired Mechanical Keyboard",
           description: "Customizable lighting for your gaming setup.",
           image: "https://www.redragonzone.com/cdn/shop/products/wireless2.4ghzmechanicalkeyboard_360x.png?v=1626069653",
-          price: 69.99,
+          price: 1600,
           tags: "POPULAR"
         },
         {
           title: "Redragon K580 PRO Wireless RGB Gaming Keyboard (Red Switch)",
           description: "Customize your keyboard's lighting",
           image: "https://www.redragonzone.com/cdn/shop/files/RedragonK580PROWirelessRGBGamingKeyboard_3-Modes104KeysMechanicalKeyboard_360x.png?v=1708237790",
-          price: 79.99,
+          price: 2199,
           tags: "POPULAR"
         },
         {
@@ -115,7 +115,7 @@ document.addEventListener("DOMContentLoaded", () => {
           title: "Redragon h510 Zeuz-X RGB Wireless Gaming Headset",
           description: "Freedom of movement with premium sound.",
           image: "https://www.redragonzone.com/cdn/shop/products/wirelessheadsetwithmic_2_360x.png?v=1676877867",
-          price: 69.99,
+          price: 1600,
           tags: "POPULAR"
         },
         {
@@ -129,7 +129,7 @@ document.addEventListener("DOMContentLoaded", () => {
           title: "Redragon H510 Zeuz-X RGB White Wired Gaming Headset",
           description: "Freedom of movement with premium sound.",
           image: "https://www.redragonzone.com/cdn/shop/products/H510ZEUS-XRGBWhiteWiredGamingHeadset_1_360x.png?v=1654501459",
-          price: 59.99,
+          price: 750,
           tags: "NONE"
         },
       ],
@@ -165,14 +165,14 @@ document.addEventListener("DOMContentLoaded", () => {
           title: "T1 Uniform Jacket - Rekkes",
           description: "Stay warm with T1 Jacket",
           image: "https://shop-t1-na.gg/cdn/shop/files/2024-t1-uniform-jacket_600x.jpg?v=1708469337",
-          price: 59.99,
+          price: 2199,
           tags: "POPULAR"
         },
         {
           title: "T1 Spring Jacket",
           description: "Stylish jacket to wear for tournaments",
           image: "https://shop-t1-na.gg/cdn/shop/products/spring-jacket-front_600x.jpg?v=1680302371",
-          price: 79.99,
+          price: 1899,
           tags: "NONE"
         },
       ],
@@ -183,15 +183,15 @@ document.addEventListener("DOMContentLoaded", () => {
           title: "2024 T1 Uniform Jersey Keychain",
           description: "Adorable chibi figures for collectors.",
           image: "https://shop-t1-na.gg/cdn/shop/files/2024-T1-Uniform-Jersey-Keychain-Faker_600x.jpg?v=1712613622",
-          price: 9.99,
-          tags: "SALE"        
+          price: 300,
+          tags: "POPULAR"        
         },
         {
           title: "2023 T1 Uniform Worlds Jeysey Keychain",
           description: "Unique designs for every fan.",
           image: "https://shop-t1-na.gg/cdn/shop/files/0517870df70f31d38b11059aff8f5e3e_600x.jpg?v=1697737349",
-          price: 12.99,
-          tags: "NONE"
+          price: 300,
+          tags: "POPULAR"
         },
       ],
       Option2: [
@@ -199,14 +199,14 @@ document.addEventListener("DOMContentLoaded", () => {
           title: "Rising Legend Ahri",
           description: "The legendary and limited skin for our T1 FAKER!",
           image: "https://cdn.oneesports.gg/cdn-data/2024/05/LeagueofLegends_RisenLegendAhri_SplashArt.jpg",
-          price: 250,
+          price: 28879.61,
           tags: "LEGENDARY"
         },
         {
           title: "Rising Legend Leblanc",
           description: "The legendary and limited skin for our T1 FAKER!",
           image: "https://preview.redd.it/risen-legend-leblanc-splash-art-v0-g1xkpo88p63d1.jpeg?auto=webp&s=d6fc453687974c90a90ab194c5d9ac0cae2aa5d3",
-          price: 22.99,
+          price: 20123.99,
           tags: "POPULAR"
         },
       ],
@@ -215,14 +215,14 @@ document.addEventListener("DOMContentLoaded", () => {
           title: "GB Pro Slide T1 Edition V2 - Red",
           description: "Stylish slippers for gamers",
           image: "https://shop-t1-na.gg/cdn/shop/files/sq-230425b_6806-copy_400x.jpg?v=1697670826",
-          price: 29.99,
+          price: 250,
           tags: "NONE"
         },
         {
           title: "GB Pro Slide T1 Edition V2 - Black",
           description: "Stylish slippers for gamers",
           image: "https://en.shop-t1.gg/web/product/small/202408/b5914816705628137b3a548415eed797.jpg",
-          price: 29.99,
+          price: 350,
           tags: "NONE"
         },
       ],
@@ -233,28 +233,28 @@ document.addEventListener("DOMContentLoaded", () => {
           title: "Redragon M716 INQUISITOR RGB Gaming Mouse",
           description: "LGTVHD",
           image: "https://www.redragonzone.com/cdn/shop/files/M716-1_1_450x450_0e9fb06c-090c-4bc5-b143-b57c477d87fe_360x.PNG?v=1615925715",
-          price: 29.99,
+          price: 1500,
           tags: "POPULAR"      
         },
         {
           title: "Redragon TIANOBA 3 M802-3 Gaming Mouse",
           description: "Good for FPS games, very easy to have a perfect sens",
           image: "https://www.redragonzone.com/cdn/shop/files/M802-1_450x450_1f35bfb7-b394-461a-80d3-cbb703c66dcb_360x.PNG?v=1615925715",
-          price: 35.99,
+          price: 1750,
           tags: "POPULAR"
         },
         {
           title: "Redragon Deimos K599 24G+Wired Mechanical Keyboard",
           description: "Customizable lighting for your gaming setup.",
           image: "https://www.redragonzone.com/cdn/shop/products/wireless2.4ghzmechanicalkeyboard_360x.png?v=1626069653",
-          price: 69.99,
+          price: 1600,
           tags: "POPULAR"
         },
         {
           title: "Redragon K580 PRO Wireless RGB Gaming Keyboard (Red Switch)",
           description: "Customize your keyboard's lighting",
           image: "https://www.redragonzone.com/cdn/shop/files/RedragonK580PROWirelessRGBGamingKeyboard_3-Modes104KeysMechanicalKeyboard_360x.png?v=1708237790",
-          price: 79.99,
+          price: 2199,
           tags: "POPULAR"
         },
       ],
@@ -263,31 +263,31 @@ document.addEventListener("DOMContentLoaded", () => {
           title: "Rising Legend Ahri",
           description: "The legendary and limited skin for our T1 FAKER!",
           image: "https://cdn.oneesports.gg/cdn-data/2024/05/LeagueofLegends_RisenLegendAhri_SplashArt.jpg",
-          price: 250,
+          price: 28879.61,
           tags: "LEGENDARY"
         },
         {
           title: "Rising Legend Leblanc",
           description: "The legendary and limited skin for our T1 FAKER!",
           image: "https://preview.redd.it/risen-legend-leblanc-splash-art-v0-g1xkpo88p63d1.jpeg?auto=webp&s=d6fc453687974c90a90ab194c5d9ac0cae2aa5d3",
-          price: 22.99,
+          price: 20123.99,
           tags: "POPULAR"
         },
       ],
       Option3: [
         {
-          title: "GB Pro Slide T1 Edition V2 - Red",
-          description: "Stylish slippers for gamers",
-          image: "https://shop-t1-na.gg/cdn/shop/files/sq-230425b_6806-copy_400x.jpg?v=1697670826",
-          price: 29.99,
-      tags: "NONE"
+          title: "2024 T1 Uniform Jersey Keychain",
+          description: "Adorable chibi figures for collectors.",
+          image: "https://shop-t1-na.gg/cdn/shop/files/2024-T1-Uniform-Jersey-Keychain-Faker_600x.jpg?v=1712613622",
+          price: 300,
+          tags: "POPULAR"        
         },
         {
-          title: "GB Pro Slide T1 Edition V2 - Black",
-          description: "Stylish slippers for gamers",
-          image: "https://en.shop-t1.gg/web/product/small/202408/b5914816705628137b3a548415eed797.jpg",
-          price: 29.99,
-          tags: "NONE"
+          title: "2023 T1 Uniform Worlds Jeysey Keychain",
+          description: "Unique designs for every fan.",
+          image: "https://shop-t1-na.gg/cdn/shop/files/0517870df70f31d38b11059aff8f5e3e_600x.jpg?v=1697737349",
+          price: 300,
+          tags: "POPULAR"
         },
       ],
     },
@@ -396,7 +396,7 @@ document.addEventListener("DOMContentLoaded", () => {
           <img src="${item.image}" alt="${item.title}">
           <h3>${item.title}</h3>
           <p>${item.description}</p>
-          <p><strong>$${item.price.toFixed(2)}</strong></p>
+          <p><strong>₱${item.price.toFixed(2)}</strong></p>
           <a href="#" class="buy-btn" data-title="${item.title}" data-price="${item.price}">Buy Now!</a>
         </div>
       </div>
@@ -410,7 +410,7 @@ document.addEventListener("DOMContentLoaded", () => {
           <img src="${item.image}" alt="${item.title}">
           <h3>${item.title}</h3>
           <p>${item.description}</p>
-          <p><strong>$${item.price.toFixed(2)}</strong></p>
+          <p><strong>₱${item.price.toFixed(2)}</strong></p>
           <a href="#" class="buy-btn" data-title="${item.title}" data-price="${item.price}">Buy Now!</a>
         </div>
       </div>
@@ -423,7 +423,7 @@ document.addEventListener("DOMContentLoaded", () => {
           <img src="${item.image}" alt="${item.title}">
           <h3>${item.title}</h3>
           <p>${item.description}</p>
-          <p><strong>$${item.price.toFixed(2)}</strong></p>
+          <p><strong>₱${item.price.toFixed(2)}</strong></p>
           <a href="#" class="buy-btn" data-title="${item.title}" data-price="${item.price}">Buy Now!</a>
         </div>
       </div>
@@ -437,7 +437,7 @@ document.addEventListener("DOMContentLoaded", () => {
           <img src="${item.image}" alt="${item.title}">
           <h3>${item.title}</h3>
           <p>${item.description}</p>
-          <p><strong>$${item.price.toFixed(2)}</strong></p>
+          <p><strong>₱${item.price.toFixed(2)}</strong></p>
           <a href="#" class="buy-btn" data-title="${item.title}" data-price="${item.price}">Buy Now!</a>
         </div>
       </div>
@@ -451,7 +451,7 @@ document.addEventListener("DOMContentLoaded", () => {
           <img src="${item.image}" alt="${item.title}">
           <h3>${item.title}</h3>
           <p>${item.description}</p>
-          <p><strong>$${item.price.toFixed(2)}</strong></p>
+          <p><strong>₱${item.price.toFixed(2)}</strong></p>
           <a href="#" class="buy-btn" data-title="${item.title}" data-price="${item.price}">Buy Now!</a>
         </div>
       </div>
