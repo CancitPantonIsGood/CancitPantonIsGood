@@ -35,7 +35,7 @@ document.addEventListener("DOMContentLoaded", () => {
           description: "LGTVHD",
           image: "https://www.redragonzone.com/cdn/shop/files/M711_450x450_3bc0b23a-75f9-4ff6-a24c-8858583d5e77_360x.PNG?v=1615925716",
           price: 39.99,
-          tags: ""
+          tags: "NONE"
         },
         {
           title: "Redragon M990 LEGEND 24000 DPI High-Precision Programmable Laser Gaming Mouse",
@@ -49,28 +49,28 @@ document.addEventListener("DOMContentLoaded", () => {
           description: "Very light",
           image: "https://www.redragonzone.com/cdn/shop/files/M991-RGB-1_360x.png?v=1686365390",
           price: 29.99,
-          tags: ""
+          tags: "NONE"
         },
         {
           title: "Redragon M810 Pro Wireless Gaming Mouse",
           description: "This has the cheapest price of all time sheesh",
           image: "https://www.redragonzone.com/cdn/shop/products/RedragonM690PROWirelessGamingMouse_2_360x.png?v=1674027702",
           price: 1.99,
-          tags: ""
+          tags: "NONE"
         },
         {
           title: "Redragon M991 Wireless Gaming Mouse",
           description: "Very light",
           image: "https://www.redragonzone.com/cdn/shop/files/M991-RGB-1_360x.png?v=1686365390",
           price: 29.99,
-          tags: ""
+          tags: "NONE"
         },
         {
           title: "Redragon PLANK M812RGB Geyming Mouse",
           description: "This is our best LGTVHD mouse for gey",
           image: "https://www.redragonzone.com/cdn/shop/files/M721-PROM812-RGB_1_360x.png?v=1689933866",
           price: 4.99,
-          tags: ""
+          tags: "NONE"
         },
       ],
       Option2: [
@@ -79,7 +79,7 @@ document.addEventListener("DOMContentLoaded", () => {
           description: "Responsive and durable mechanical keys.",
           image: "https://www.redragonzone.com/cdn/shop/products/K552R-2-1_360x.png?v=1533022707",
           price: 59.99,
-          tags: ""
+          tags: "NONE"
         },
         {
           title: "Redragon Deimos K599 24G+Wired Mechanical Keyboard",
@@ -109,7 +109,7 @@ document.addEventListener("DOMContentLoaded", () => {
           description: "Immerse in crystal-clear sound quality.",
           image: "https://www.redragonzone.com/cdn/shop/products/Redragonh510whitegamingheadset_1_360x.png?v=1597722607",
           price: 49.99,
-          tags: ""
+          tags: "NONE"
         },
         {
           title: "Redragon h510 Zeuz-X RGB Wireless Gaming Headset",
@@ -123,14 +123,14 @@ document.addEventListener("DOMContentLoaded", () => {
           description: "Immerse in crystal-clear sound quality.",
           image: "https://www.redragonzone.com/cdn/shop/products/H520-1_360x.png?v=1621822416",
           price: 39.99,
-          tags: ""
+          tags: "NONE"
         },
         {
           title: "Redragon H510 Zeuz-X RGB White Wired Gaming Headset",
           description: "Freedom of movement with premium sound.",
           image: "https://www.redragonzone.com/cdn/shop/products/H510ZEUS-XRGBWhiteWiredGamingHeadset_1_360x.png?v=1654501459",
           price: 59.99,
-          tags: ""
+          tags: "NONE"
         },
       ],
     },
@@ -157,7 +157,7 @@ document.addEventListener("DOMContentLoaded", () => {
           description: "Perfect for summer days and workouts",
           image: "https://shop-t1-na.gg/cdn/shop/files/231004b_0059_CROPPED_600x.jpg?v=1699307901",
           price: 49.99,
-          tags: ""
+          tags: "NONE"
         },
       ],
       Option3: [
@@ -173,7 +173,7 @@ document.addEventListener("DOMContentLoaded", () => {
           description: "Stylish jacket to wear for tournaments",
           image: "https://shop-t1-na.gg/cdn/shop/products/spring-jacket-front_600x.jpg?v=1680302371",
           price: 79.99,
-          tags: ""
+          tags: "NONE"
         },
       ],
     },
@@ -191,7 +191,7 @@ document.addEventListener("DOMContentLoaded", () => {
           description: "Unique designs for every fan.",
           image: "https://shop-t1-na.gg/cdn/shop/files/0517870df70f31d38b11059aff8f5e3e_600x.jpg?v=1697737349",
           price: 12.99,
-          tags: ""
+          tags: "NONE"
         },
       ],
       Option2: [
@@ -207,7 +207,7 @@ document.addEventListener("DOMContentLoaded", () => {
           description: "The legendary and limited skin for our T1 FAKER!",
           image: "https://preview.redd.it/risen-legend-leblanc-splash-art-v0-g1xkpo88p63d1.jpeg?auto=webp&s=d6fc453687974c90a90ab194c5d9ac0cae2aa5d3",
           price: 22.99,
-          tags: ""
+          tags: "NONE"
         },
       ],
       Option3: [
@@ -216,14 +216,14 @@ document.addEventListener("DOMContentLoaded", () => {
           description: "Stylish slippers for gamers",
           image: "https://shop-t1-na.gg/cdn/shop/files/sq-230425b_6806-copy_400x.jpg?v=1697670826",
           price: 29.99,
-          tags: ""
+          tags: "NONE"
         },
         {
           title: "GB Pro Slide T1 Edition V2 - Black",
           description: "Stylish slippers for gamers",
           image: "https://en.shop-t1.gg/web/product/small/202408/b5914816705628137b3a548415eed797.jpg",
           price: 29.99,
-          tags: ""
+          tags: "NONE"
         },
       ],
     },
@@ -250,14 +250,14 @@ document.addEventListener("DOMContentLoaded", () => {
           description: "The legendary and limited skin for our T1 FAKER!",
           image: "https://cdn.oneesports.gg/cdn-data/2024/05/LeagueofLegends_RisenLegendAhri_SplashArt.jpg",
           price: 19.99,
-          tags: ""
+          tags: "NONE"
         },
         {
           title: "Rising Legend Leblanc",
           description: "The legendary and limited skin for our T1 FAKER!",
           image: "https://preview.redd.it/risen-legend-leblanc-splash-art-v0-g1xkpo88p63d1.jpeg?auto=webp&s=d6fc453687974c90a90ab194c5d9ac0cae2aa5d3",
           price: 22.99,
-          tags: ""
+          tags: "NONE"
         },
       ],
       Option3: [
@@ -266,14 +266,14 @@ document.addEventListener("DOMContentLoaded", () => {
           description: "Stylish slippers for gamers",
           image: "https://shop-t1-na.gg/cdn/shop/files/sq-230425b_6806-copy_400x.jpg?v=1697670826",
           price: 29.99,
-      tags: ""
+      tags: "NONE"
         },
         {
           title: "GB Pro Slide T1 Edition V2 - Black",
           description: "Stylish slippers for gamers",
           image: "https://en.shop-t1.gg/web/product/small/202408/b5914816705628137b3a548415eed797.jpg",
           price: 29.99,
-          tags: ""
+          tags: "NONE"
         },
       ],
     },
@@ -368,14 +368,14 @@ tags: "SALE"
       const contentList = contentMap[category][optionKey];
       const cardsHtml = contentList
   .map((item, itemIndex) => {
-    
+    const none = item.tags === "NONE" ? '<div class="tags-none"></div>' : '';
     const popularText = item.tags === "POPULAR" ? '<div class="tags-popular">Popular</div>' : '';
     const salesText = item.tags === "SALE" ? ' <div class="tags-sale">Sales</div>' : '';
 
-    return `
-      <div class="card">
+    if (salesText) {
+      return `
+      <div class="card" style="border: 2px solid red;">
         <div class="content">
-          ${popularText} <!-- "Popular" text for the first item -->
           ${salesText}
           <img src="${item.image}" alt="${item.title}">
           <h3>${item.title}</h3>
@@ -385,6 +385,35 @@ tags: "SALE"
         </div>
       </div>
     `;
+    }
+    else if (popularText) {
+      return `
+      <div class="card" style="border: 2px solid blue;">
+        <div class="content">
+          ${popularText}
+          <img src="${item.image}" alt="${item.title}">
+          <h3>${item.title}</h3>
+          <p>${item.description}</p>
+          <p><strong>$${item.price.toFixed(2)}</strong></p>
+          <a href="#" class="buy-btn" data-title="${item.title}" data-price="${item.price}">Buy Now!</a>
+        </div>
+      </div>
+    `;
+    }
+    else if (none) {
+      return `
+      <div class="card" style="border: 2px solid white;">
+        <div class="content">
+          <img src="${item.image}" alt="${item.title}">
+          <h3>${item.title}</h3>
+          <p>${item.description}</p>
+          <p><strong>$${item.price.toFixed(2)}</strong></p>
+          <a href="#" class="buy-btn" data-title="${item.title}" data-price="${item.price}">Buy Now!</a>
+        </div>
+      </div>
+    `;
+    }
+    
   })
   .join("")
 
