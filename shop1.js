@@ -49,7 +49,7 @@ document.addEventListener("DOMContentLoaded", () => {
           description: "Very light",
           image: "https://www.redragonzone.com/cdn/shop/files/M991-RGB-1_360x.png?v=1686365390",
           price: 29.99,
-          tags: "POPULAR"
+          tags: "NONE"
         },
         {
           title: "Redragon M810 Pro Wireless Gaming Mouse",
@@ -357,7 +357,7 @@ tags: "SALE"
           title: "Faker Package Edition",
           description: "A set of limited edition jersey, mouse, and keyboard!",
           image: "a3.jpg",
-          price: 999.99,
+          price: 49999.99,
           tags: "LIMITED"       
            },
          
@@ -365,7 +365,7 @@ tags: "SALE"
           title: "Limited Edition Faker Jersey",
           description: "A limited edition with a design dedicated to the king of Leauge of Legeds",
           image: "a2.jpg",
-          price: 254.99,
+          price: 2499.99,
           tags: "LIMITED"       
           },
           ]
@@ -383,7 +383,7 @@ tags: "SALE"
       const cardsHtml = contentList
   .map((item, itemIndex) => {
     const none = item.tags === "NONE" ? '<div class="tags-none"></div>' : '';
-    const limited = item.tags === "LIMITED" ? '<div class="tags-limited"></div>' : '';
+    const limited = item.tags === "LIMITED" ? '<div class="tags-limited">Limited</div>' : '';
     const popularText = item.tags === "POPULAR" ? '<div class="tags-popular">Popular</div>' : '';
     const salesText = item.tags === "SALE" ? ' <div class="tags-sale">Sales</div>' : '';
     const legText = item.tags === "LEGENDARY" ? ' <div class="tags-legendary">Legendary</div>' : '';
@@ -447,7 +447,7 @@ tags: "SALE"
       return `
       <div class="card" style="border: 2px solid white; box-shadow: 0 0 5px white, 0 0 10px white;">
         <div class="content">
-        ${legText}
+        ${limited}
           <img src="${item.image}" alt="${item.title}">
           <h3>${item.title}</h3>
           <p>${item.description}</p>
@@ -484,69 +484,40 @@ tags: "SALE"
 
   function updateCheckout() {
     checkoutContainer.innerHTML = '';
+
     if (cart.length > 0) {
-      let cartHtml = `<h3>Your Cart:</h3>`;
-      let total = 0;
-      cart.forEach((item, index) => {
-        total += item.price;
-        cartHtml += `
-          <div class="cart-item">
-            <p>${item.title} - $${item.price.toFixed(2)}</p>
-            <button class="remove-btn" data-index="${index}">Remove</button>
-          </div>
-        `;
-      });
+        let cartHtml = `<h3>Your Cart:</h3>`;
+        let total = 0;
 
-      cartHtml += `<h4>Total: $${total.toFixed(2)}</h4>`;
-      checkoutContainer.innerHTML = cartHtml;
-      document.querySelectorAll('.remove-btn').forEach(button => {
-        button.addEventListener('click', (e) => {
-          const index = e.target.getAttribute('data-index');
-          cart.splice(index, 1); 
-          updateCheckout(); 
+        cart.forEach((item, index) => {
+            total += item.price;
+            cartHtml += `
+                <div class="cart-item">
+                    <p>${item.title} - $${item.price.toFixed(2)}</p>
+                    <button class="remove-btn" data-index="${index}">Remove</button>
+                </div>
+            `;
         });
-      });
 
-      checkoutContainer.innerHTML += `
-        <button class="checkout-button">Checkout</button>
-      `;
-      
-      document.querySelector(".checkout-button").addEventListener('click', () => {
-        alert("Your purchase is processing....");
-        cart = []; 
-        updateCheckout();
-      });
+        cartHtml += `<h4>Total: $${total.toFixed(2)}</h4>`;
+        cartHtml += `<button class="checkout-button">Checkout</button>`;
+        checkoutContainer.innerHTML = cartHtml;
+
+        document.querySelectorAll('.remove-btn').forEach(button => {
+            button.addEventListener('click', (e) => {
+                const index = parseInt(e.target.getAttribute('data-index'), 10);
+                cart.splice(index, 1);
+                updateCheckout();
+            });
+        });
+
+        document.querySelector(".checkout-button").addEventListener('click', () => {
+            alert("Your purchase is processing....");
+            cart = [];
+            updateCheckout();
+        });
     } else {
-      checkoutContainer.innerHTML = '<p>Your cart is empty</p>';
+        checkoutContainer.innerHTML = '<p>Your cart is empty</p>';
     }
-  }
-});
-
-function updateCheckout() {
-  const cartContainer = document.getElementById('cart-container');
-  cartContainer.innerHTML = '';
-  cart.forEach((item, index) => {
-      const cartItem = document.createElement('div');
-      cartItem.innerHTML = `
-          <span>${item.name}</span>
-          <button class="remove-btn" data-index="${index}">Remove</button>
-      `;
-      cartContainer.appendChild(cartItem);
-  });
-  attachRemoveButtons();
 }
-
-document.querySelectorAll('.remove-btn').forEach(button => { 
-  button.addEventListener('click', (e) => { 
-      const index = e.target.getAttribute('data-index'); 
-      cart.splice(index, 1);
-      updateCheckout();
-  }); 
-});
-
-document.querySelectorAll('.remove-btn').forEach(button => { button.addEventListener('click', (e) => { 
-const index = e.target.getAttribute('data-index'); cart.splice(index, 1);
-
-updateCheckout();
-}); 
 });
