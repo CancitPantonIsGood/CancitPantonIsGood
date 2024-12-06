@@ -237,7 +237,7 @@ body {
 .checkout-container {
   position: fixed;
   top: 20px;
-  right: 20px;
+  right: 0;
   width: 300px;
   background-color: #333;
   padding: 20px;
@@ -390,9 +390,9 @@ button:hover {
 
 /* Checkout Section Styles */
 .checkout-container {
-  position: fixed;
-  top: 20px;
-  right: 20px;
+  position: absolute;
+  top: 350px;
+  left: 20px;
   width: 300px;
   max-height: 400px; /* Set a maximum height for the container */
   overflow-y: auto; /* Enable vertical scrolling if content exceeds max height */
@@ -551,4 +551,5 @@ button:hover {
 img {
   border-radius: 10%;
 }
+
 
